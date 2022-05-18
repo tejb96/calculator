@@ -1,9 +1,11 @@
 .container{
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow:0px 0px 43px 17px rgba(11, 10, 11);
+    box-shadow:0px 0px 0px 8px rgba(11, 10, 10, 0.759);
+    
 }
 #display{
+   
     text-align:right;
     height: 70px;
     line-height:70px;
@@ -28,9 +30,23 @@
     cursor: pointer;
 }
 #equal{
-    background-color: #5555ff;
+    background-color: royalblue;
     color:rgb(255, 255, 255);
 }
 .button:hover{
-    background-color:#000000;
+    background-color:#d2cccc;
+}
+h1{
+    text-align: left;
+    color: red;
+    font-size: 50px;
+ 
+}
+h2{
+    text-align: right;
+    color: royalblue;
+    font-size: 50px;
+}
+#c{
+    background-color: red;
 }
